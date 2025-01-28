@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'bases';
+   public title: String  = 'hOAL MUNDO';
+
+   public couter: number = 5;
+
+  increBy( value: number):void {
+    this.couter +=value;
+  };
+ reset(){
+this.couter =10;
+
+ }
+
 }
