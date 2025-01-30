@@ -8,14 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
    public title: String  = 'hOAL MUNDO';
 
-   public couter: number = 5;
+   public counter: number = 5;
 
   increBy( value: number):void {
-    this.couter +=value;
-  };
- reset(){
-this.couter =10;
+    this.counter += value;
+  }
+restCounter(){
+  this.counter = 10;
+}
 
  }
 
-}
