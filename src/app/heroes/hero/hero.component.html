@@ -1,1 +1,23 @@
-<p>hero works!</p>
+<h1> {{ name}} </h1>
+ <dl>
+  <td class="fw-bold"> Nombre: </td>
+    <dd> {{ name }}</dd>
+
+  <td class="fw-bold"> Edad: </td>
+    <dd> {{ age }}</dd>
+
+  <td class="fw-bold"> metodo: </td>
+  <dd> {{ getHeroDescription() }}</dd>
+
+  <td class=" fw-bold "> Capital: </td>
+  <dd> {{ capitalizedName }}</dd>
+
+ </dl>
+
+ <button class="btn btn-primary mx-2">
+  Cambair nombre
+ </button>
+
+ <button class="btn btn-primary">
+  Cambair Edad
+ </button>
