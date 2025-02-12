@@ -7,11 +7,12 @@ import { AddCharacterComponent } from './components/add-character/add-character.
 
 
 
+
 @NgModule({
   declarations: [
     MainPageComponent,
     ListComponent,
-    AddCharacterComponent,
+    AddCharacterComponent
 
   ],
   exports: [
