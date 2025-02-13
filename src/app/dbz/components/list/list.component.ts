@@ -12,13 +12,18 @@ export class ListComponent {
   @Input()
   public characterList: Character[] = [
   ]
-  public onDeleteCharacter(index: number): void {
-    this.characterList.splice(index, 1);
-  }
+
+
   public onNewCharacter(character: Character): void {
     this.characterList.unshift(character);
   }
 
+  onDeleleteId(index: number): void {
+    console.log(index);
+  }
 
+  public onDeleteCharacter(index: number): void {
+    this.characterList.splice(index, 1);
+  }
 
 }
